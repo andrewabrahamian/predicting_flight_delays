@@ -2,6 +2,10 @@
 #### Authors: Andrew Abrahamian, Antonio Martinez, Mohammad Kanawati, Reed Evans
 #### MIDS W261: Machine Learning at Scale | Spring 2024 | Final Project
 
+## [Phase 3 - Final Project Report](https://andrewabrahamian.github.io/predicting_flight_delays/team_3-3_phase_3_report_w261_final_project.html)
+## [Phase 2 - Project Report](https://andrewabrahamian.github.io/predicting_flight_delays/team_3-3_phase_2_report_w261_final_project.html)
+## [Phase 1 - Project Report](https://andrewabrahamian.github.io/predicting_flight_delays/team_3-3_phase_1_report_w261_final_project.html)
+
 Our project focuses on developing a machine-learning model to predict flight delays, with the goal of enhancing operational efficiencies within the airline industry. We approach this as a classification problem, defining flight delays based on the FAA's criteria of departures occurring 15 minutes after scheduled time. The primary objective is to minimize the False Negative rate (predicting no delay when there actually is one), measured by recall.
 
 Using a joined dataset combining On-Time Performance & Weather (OTPW) sourced from the Department of Transportation (DOT) and the National Oceanic & Atmospheric Administration (NOAA), we trained and evaluated several models. These include Logistic Regression, XGBoost, and Random Forest (RF), all optimized to maximize recall due to the imbalance in our sample (only 17.9% of flights classified as delayed).
